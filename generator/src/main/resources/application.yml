@@ -19,3 +19,18 @@ logging:
   level:
     root: info
     com.example.generator: debug
+
+
+
+springfox:
+  documentation:
+    # 是否启用Swagger扫描代码生成文档
+    enabled: true
+    open-api:
+      # 是否启用Swagger的open-api
+      enabled: false
+    swagger-ui:
+      # 是否启用Swagger的Web UI
+      enabled: true
+      # 配置文档基础路径，此时路径为：/doc/swagger-ui/index.html
+      base-url: /doc
