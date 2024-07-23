@@ -1,7 +1,8 @@
 package com.example.generator.domain;
 
-import com.macro.mall.tiny.mbg.model.UmsResource;
-import com.macro.mall.tiny.mbg.model.UmsResourceCategory;
+
+import com.example.generator.mbg.model.UmsResource;
+import com.example.generator.mbg.model.UmsResourceCategory;
 
 /**
  * Created by macro on 2020/12/9.
