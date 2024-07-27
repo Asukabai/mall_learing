@@ -6,6 +6,12 @@ spring:
     url: jdbc:mysql://localhost:3306/mall_tiny?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
+  redis:
+    host: localhost # Redis服务器地址
+    database: 0 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password: # Redis服务器连接密码（默认为空）
+    timeout: 3000ms # 连接超时时间
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
@@ -19,7 +25,6 @@ logging:
   level:
     root: info
     com.example.generator: debug
-
 
 
 springfox:
