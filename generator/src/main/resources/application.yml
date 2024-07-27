@@ -43,5 +43,5 @@ springfox:
     swagger-ui:
       # 是否启用Swagger的Web UI
       enabled: true
-      # 配置文档基础路径，此时路径为：/doc/swagger-ui/index.html
+      # 配置文档基础路径，此时路径为：http://localhost:8080/doc/swagger-ui/index.html
       base-url: /doc
